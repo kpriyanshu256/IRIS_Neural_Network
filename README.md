@@ -1,2 +1,5 @@
 # IRIS_Neural_Network
-A neural network from scratch in python using only numpy and pandas
+A shallow neural network from scratch in python
+## Python libraries used
+* numpy
+* pandas

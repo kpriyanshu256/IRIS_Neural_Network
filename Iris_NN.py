@@ -9,14 +9,6 @@ def derivative(x):
     # function to calculate derivative of sigmoid
     return sigmoid(x)*(1-sigmoid(x))
 
-def load(filename):
-    # reading data from file
-    lines = csv.reader(open(filename, "rb"))
-    dataset = list(lines)
-    for i in range(len(dataset)):
-        dataset[i] = [float(x) for x in dataset[i]]
-    return dataset
-
 def getData(file):
     # processing data
     labels=[0,1,2,3,4]

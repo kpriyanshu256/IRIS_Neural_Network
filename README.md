@@ -1,5 +1,6 @@
 # IRIS_Neural_Network
-A shallow neural network from scratch in python
+Various implementations of a shallow neural network in python.
+
 ## Python libraries used
 ### Iris_NN.py
 * numpy
@@ -9,3 +10,8 @@ A shallow neural network from scratch in python
 * sklearn
 * pandas
 * numpy
+### Iris_PyTorch.ipynb
+* numpy
+* pandas
+* pytorch
+* sklearn
